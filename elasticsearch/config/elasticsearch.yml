@@ -13,6 +13,22 @@ discovery.type: single-node
 ## X-Pack settings
 ## see https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-xpack.html
 #
-xpack.license.self_generated.type: trial
+xpack.license.self_generated.type: basic ##can also set TRIAL
 xpack.security.enabled: true
 xpack.monitoring.collection.enabled: true
+xpack.security.transport.ssl.enabled: true
+xpack.security.transport.ssl.verification_mode: certificate 
+xpack.security.transport.ssl.client_authentication: required
+xpack.security.transport.ssl.keystore.path: ./location
+xpack.security.transport.ssl.truststore.path: ./location
+xpack.notification.email.account: #this is an example as i did not test it extensively!
+    gmail_account:
+        profile: gmail # this can probably be modified to other types
+        smtp:
+            auth: true
+            starttls.enable: true
+            host: smtp.gmail.com
+            port: 587
+            user: #email name
+            password: #password
+            #https://karolinescoding1.wordpress.com/2016/11/23/how-to-send-email-with-a-kibana-report-attached-using-x-pack-watchers/

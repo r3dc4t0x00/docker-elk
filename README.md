@@ -1,6 +1,5 @@
 # Elastic stack (ELK) on Docker
 
-[![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Elastic Stack version](https://img.shields.io/badge/ELK-7.2.1-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/421)
 [![Build Status](https://api.travis-ci.org/deviantony/docker-elk.svg?branch=master)](https://travis-ci.org/deviantony/docker-elk)
 
@@ -10,8 +9,8 @@ It gives you the ability to analyze any data set by using the searching/aggregat
 the visualization power of Kibana.
 
 > :information_source: The Docker images backing this stack include [Stack Features][stack-features] (formerly X-Pack)
-with [paid features][paid-features] enabled by default (see [How to disable paid
-features](#how-to-disable-paid-features) to disable them). The [trial license][trial-license] is valid for 30 days.
+with [paid features][paid-features] not enabled by default (see [How to disable paid
+features](#how-to-disable-paid-features) to enable them). The [trial license][trial-license] is valid for 30 days.
 
 Based on the official Docker images from Elastic:
 

@@ -9,7 +9,7 @@ It gives you the ability to analyze any data set by using the searching/aggregat
 the visualization power of Kibana.
 
 > :information_source: The Docker images backing this stack include [Stack Features][stack-features] (formerly X-Pack)
-with [paid features][paid-features] not enabled by default (see [How to disable paid
+with [paid features][paid-features] not enabled by default (see [How to enable paid
 features](#how-to-disable-paid-features) to enable them). The [trial license][trial-license] is valid for 30 days.
 
 Based on the official Docker images from Elastic:

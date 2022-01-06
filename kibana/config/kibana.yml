@@ -6,6 +6,8 @@ server.name: kibana
 server.host: "0"
 elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 xpack.monitoring.ui.container.elasticsearch.enabled: true
+server.ssl.certificate: /path/to/kibana-server.crt
+server.ssl.key: /path/to/kibana-server.key
 
 ## X-Pack security credentials
 #
